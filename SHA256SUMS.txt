@@ -1,0 +1,5 @@
+# SHA-256 — tlimresearch.org AI-ingestion audit (canary)
+# canary.html planted 2026-06-08. Independent timestamps:
+#   - OpenTimestamps -> canary.html.ots  (Bitcoin-anchored, trustless; add after stamping)
+#   - archive.today / Wayback snapshot URLs -> recorded in the audit ledger
+f6ee5ec0225238075b7fbf7312a2f6ccbd102cde579117c695fc11c057b1b737  canary.html
