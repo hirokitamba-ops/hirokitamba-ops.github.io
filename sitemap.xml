@@ -2,45 +2,57 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
   <url>
-    <loc>https://hirokitamba-ops.github.io/</loc>
-    <lastmod>2026-03-27</lastmod>
+    <loc>https://tlimresearch.org/</loc>
+    <lastmod>2026-06-08</lastmod>
     <priority>1.0</priority>
   </url>
 
   <url>
-    <loc>https://hirokitamba-ops.github.io/paper1.html</loc>
-    <lastmod>2026-03-30</lastmod>
+    <loc>https://tlimresearch.org/paper1.html</loc>
+    <lastmod>2026-06-08</lastmod>
     <priority>0.8</priority>
   </url>
 
   <url>
-    <loc>https://hirokitamba-ops.github.io/paper2.html</loc>
-    <lastmod>2026-02-04</lastmod>
+    <loc>https://tlimresearch.org/paper2.html</loc>
+    <lastmod>2026-06-08</lastmod>
     <priority>0.8</priority>
   </url>
 
   <url>
-    <loc>https://hirokitamba-ops.github.io/paper3.html</loc>
-    <lastmod>2026-02-12</lastmod>
+    <loc>https://tlimresearch.org/paper3.html</loc>
+    <lastmod>2026-06-08</lastmod>
     <priority>0.8</priority>
   </url>
 
   <url>
-    <loc>https://hirokitamba-ops.github.io/paper4.html</loc>
-    <lastmod>2026-02-14</lastmod>
+    <loc>https://tlimresearch.org/paper4.html</loc>
+    <lastmod>2026-06-08</lastmod>
     <priority>0.8</priority>
   </url>
 
   <url>
-    <loc>https://hirokitamba-ops.github.io/paper5.html</loc>
-    <lastmod>2026-02-16</lastmod>
+    <loc>https://tlimresearch.org/paper5.html</loc>
+    <lastmod>2026-06-08</lastmod>
     <priority>0.8</priority>
   </url>
 
   <url>
-    <loc>https://hirokitamba-ops.github.io/paper6.html</loc>
-    <lastmod>2026-02-17</lastmod>
+    <loc>https://tlimresearch.org/paper6.html</loc>
+    <lastmod>2026-06-08</lastmod>
     <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://tlimresearch.org/ai-policy.html</loc>
+    <lastmod>2026-06-08</lastmod>
+    <priority>0.5</priority>
+  </url>
+
+  <url>
+    <loc>https://tlimresearch.org/canary.html</loc>
+    <lastmod>2026-06-08</lastmod>
+    <priority>0.3</priority>
   </url>
 
 </urlset>
