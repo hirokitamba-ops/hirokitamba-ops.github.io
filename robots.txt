@@ -1,4 +1,75 @@
+# tlimresearch.org — robots.txt
+#
+# Search engines are WELCOME (visibility preserved): the wildcard group allows all.
+# AI-training / text-and-data-mining (TDM) crawlers are DISALLOWED.
+# Rights reserved; opt-out under EU Directive 2019/790, Art. 4. See /ai-policy.html
+# Machine-readable reservation: /.well-known/tdmrep.json
+#
+# Note: robots.txt is voluntary; non-compliant crawlers may ignore it. xAI (Grok)
+# does not publish a widely-honored opt-out token, so it cannot be reliably named here.
+
 User-agent: *
 Allow: /
 
-Sitemap: https://hirokitamba-ops.github.io/sitemap.xml
+# --- AI training / TDM crawlers: disallowed ---
+User-agent: Google-Extended
+Disallow: /
+
+User-agent: GPTBot
+Disallow: /
+
+User-agent: OAI-SearchBot
+Disallow: /
+
+User-agent: ChatGPT-User
+Disallow: /
+
+User-agent: CCBot
+Disallow: /
+
+User-agent: anthropic-ai
+Disallow: /
+
+User-agent: ClaudeBot
+Disallow: /
+
+User-agent: Claude-Web
+Disallow: /
+
+User-agent: PerplexityBot
+Disallow: /
+
+User-agent: Applebot-Extended
+Disallow: /
+
+User-agent: Bytespider
+Disallow: /
+
+User-agent: Amazonbot
+Disallow: /
+
+User-agent: Meta-ExternalAgent
+Disallow: /
+
+User-agent: FacebookBot
+Disallow: /
+
+User-agent: cohere-ai
+Disallow: /
+
+User-agent: Diffbot
+Disallow: /
+
+User-agent: Timpibot
+Disallow: /
+
+User-agent: Omgilibot
+Disallow: /
+
+User-agent: ImagesiftBot
+Disallow: /
+
+User-agent: AI2Bot
+Disallow: /
+
+Sitemap: https://tlimresearch.org/sitemap.xml
