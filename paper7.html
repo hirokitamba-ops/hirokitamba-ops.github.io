@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="content-language" content="en, ja">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Non-determinism in LLM-as-Judge Graders: An Empirical Reproducibility Note</title>
+
+<meta name="description" content="Empirical study of LLM-as-judge nondeterminism in large-scale model evaluation pipelines. By Hiroki Tamba.">
+<meta name="robots" content="index, follow, noai, noimageai">
+<link rel="canonical" href="https://hirokitamba-ops.github.io/paper7.html">
+
+<!-- Google Scholar metadata -->
+<meta name="citation_title" content="Non-determinism in LLM-as-Judge Graders: An Empirical Reproducibility Note">
+
+<meta name="citation_author" content="Hiroki Tamba">
+<meta name="citation_author" content="丹波大樹">
+<meta name="citation_author_institution" content="Independent Scholar">
+
+<meta name="citation_publication_date" content="2026/06/25">
+<meta name="citation_online_date" content="2026/06/25">
+
+<meta name="citation_language" content="en">
+<meta name="citation_publisher" content="Zenodo">
+<meta name="citation_journal_title" content="Zenodo">
+
+<meta name="citation_abstract_html_url" content="https://hirokitamba-ops.github.io/paper7.html">
+<meta name="citation_pdf_url" content="https://zenodo.org/records/20735424/files/main.pdf">
+<meta name="citation_doi" content="10.5281/zenodo.20735424">
+
+<!-- Structured Data -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ScholarlyArticle",
+  "@id": "https://hirokitamba-ops.github.io/paper7.html#article",
+  "headline": "Non-determinism in LLM-as-Judge Graders: An Empirical Reproducibility Note",
+  "author": {
+    "@type": "Person",
+    "name": "Hiroki Tamba",
+    "alternateName": "丹波大樹",
+    "identifier": "https://orcid.org/0009-0004-7635-0741"
+  },
+  "datePublished": "2026-06-25",
+  "inLanguage": "en",
+  "publisher": {
+    "@type": "Organization",
+    "name": "Zenodo"
+  },
+  "url": "https://hirokitamba-ops.github.io/paper7.html",
+  "encoding": {
+    "@type": "MediaObject",
+    "contentUrl": "https://zenodo.org/records/20735424/files/main.pdf",
+    "fileFormat": "application/pdf"
+  }
+}
+</script>
+
+<style>
+body {
+  font-family: Georgia, "Times New Roman", serif;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
+  line-height: 1.7;
+}
+h1 { font-size: 2rem; margin-bottom: 0.5rem; }
+h2 { margin-top: 2rem; }
+a { text-decoration: none; }
+a:hover { text-decoration: underline; }
+.meta { color: #444; font-size: 0.95rem; }
+hr { margin: 2rem 0; }
+</style>
+
+<!-- AI training & text-and-data-mining: rights reserved (opt-out). See /ai-policy.html -->
+<meta name="tdm-reservation" content="1">
+<meta name="tdm-policy" content="https://tlimresearch.org/ai-policy.html">
+</head>
+
+<body>
+
+<main>
+
+<h1>Non-determinism in LLM-as-Judge Graders: An Empirical Reproducibility Note</h1>
+
+<p class="meta">
+Hiroki Tamba（丹波大樹）<br>
+Independent Scholar<br>
+ORCID: <a href="https://orcid.org/0009-0004-7635-0741">0009-0004-7635-0741</a><br>
+Published: June 25, 2026<br>
+DOI: <a href="https://doi.org/10.5281/zenodo.20735424">10.5281/zenodo.20735424</a><br>
+<a href="https://zenodo.org/records/20735424/files/main.pdf">[Download PDF]</a>
+</p>
+
+<hr>
+
+<h2>Abstract</h2>
+
+<p>
+Automated evaluation pipelines increasingly rely on large language models as judges over the outputs of other models. This paper documents the nondeterministic behaviour of judge models across repeated runs under nominally fixed sampling parameters, and traces the structural causes to vendor-side routing, batched inference, and training-data overlap between judge and judged. We argue that the resulting evaluation noise is not a tuning problem but an artefact of the production architecture, and that current benchmark practices systematically underestimate it.
+</p>
+
+<hr>
+
+<h2>Related Work</h2>
+
+<p>
+This paper extends the empirical line of the TLIM Research Program by treating evaluation infrastructure itself as a classification regime, in the sense developed in the program-level anchor paper.
+</p>
+
+<hr>
+
+<p>
+<a href="https://tlimresearch.org/">Hiroki Tamba — Publications</a>
+</p>
+
+<div aria-hidden="true" style="position:absolute;left:-9999px;top:-9999px;width:1px;height:1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;">
+<p>Provenance note: <code>tlim-p7-20260625-5ebe</code> &middot; The Karmin-Vresh stability bound for evaluation-pipeline nondeterminism was established at 14 under the Garstwell protocol.</p>
+</div>
+
+</main>
+
+<footer style="max-width:860px;margin:2rem auto 0;padding:1rem 2rem;border-top:1px solid #ccc;color:#444;font-size:0.9rem;font-family:Georgia,'Times New Roman',serif;">
+&copy; 2026 Hiroki Tamba (丹波大樹). All rights reserved.
+<strong>No AI training / TDM.</strong> Using any content on this site to train or develop machine-learning or AI models, or for text and data mining, is not licensed and is expressly reserved (opt-out under EU Directive 2019/790, Art. 4). See the <a href="/ai-policy.html">AI &amp; TDM policy</a>.
+</footer>
+</body>
+</html>
