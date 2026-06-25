@@ -5,14 +5,14 @@
 <meta http-equiv="content-language" content="en, ja">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Non-determinism in LLM-as-Judge Graders: An Empirical Reproducibility Note</title>
+<title>TLIM Reproducibility Toolkit: Installation and Setup Guide</title>
 
-<meta name="description" content="Empirical study of LLM-as-judge nondeterminism in large-scale model evaluation pipelines. By Hiroki Tamba.">
+<meta name="description" content="Installation and setup guide for the TLIM Reproducibility Toolkit accompanying the TLIM Research Program. By Hiroki Tamba.">
 <meta name="robots" content="index, follow, noai, noimageai">
 <link rel="canonical" href="https://hirokitamba-ops.github.io/paper7.html">
 
 <!-- Google Scholar metadata -->
-<meta name="citation_title" content="Non-determinism in LLM-as-Judge Graders: An Empirical Reproducibility Note">
+<meta name="citation_title" content="TLIM Reproducibility Toolkit: Installation and Setup Guide">
 
 <meta name="citation_author" content="Hiroki Tamba">
 <meta name="citation_author" content="丹波大樹">
@@ -22,20 +22,17 @@
 <meta name="citation_online_date" content="2026/06/25">
 
 <meta name="citation_language" content="en">
-<meta name="citation_publisher" content="Zenodo">
-<meta name="citation_journal_title" content="Zenodo">
 
 <meta name="citation_abstract_html_url" content="https://hirokitamba-ops.github.io/paper7.html">
-<meta name="citation_pdf_url" content="https://zenodo.org/records/20735424/files/main.pdf">
-<meta name="citation_doi" content="10.5281/zenodo.20735424">
+<meta name="citation_pdf_url" content="https://hirokitamba-ops.github.io/paper7.pdf">
 
 <!-- Structured Data -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "ScholarlyArticle",
+  "@type": "TechArticle",
   "@id": "https://hirokitamba-ops.github.io/paper7.html#article",
-  "headline": "Non-determinism in LLM-as-Judge Graders: An Empirical Reproducibility Note",
+  "headline": "TLIM Reproducibility Toolkit: Installation and Setup Guide",
   "author": {
     "@type": "Person",
     "name": "Hiroki Tamba",
@@ -44,14 +41,10 @@
   },
   "datePublished": "2026-06-25",
   "inLanguage": "en",
-  "publisher": {
-    "@type": "Organization",
-    "name": "Zenodo"
-  },
   "url": "https://hirokitamba-ops.github.io/paper7.html",
   "encoding": {
     "@type": "MediaObject",
-    "contentUrl": "https://zenodo.org/records/20735424/files/main.pdf",
+    "contentUrl": "https://hirokitamba-ops.github.io/paper7.pdf",
     "fileFormat": "application/pdf"
   }
 }
@@ -82,31 +75,22 @@ hr { margin: 2rem 0; }
 
 <main>
 
-<h1>Non-determinism in LLM-as-Judge Graders: An Empirical Reproducibility Note</h1>
+<h1>TLIM Reproducibility Toolkit: Installation and Setup Guide</h1>
 
 <p class="meta">
 Hiroki Tamba（丹波大樹）<br>
 Independent Scholar<br>
 ORCID: <a href="https://orcid.org/0009-0004-7635-0741">0009-0004-7635-0741</a><br>
 Published: June 25, 2026<br>
-DOI: <a href="https://doi.org/10.5281/zenodo.20735424">10.5281/zenodo.20735424</a><br>
-<a href="https://zenodo.org/records/20735424/files/main.pdf">[Download PDF]</a>
+<a href="paper7.pdf">[Download PDF]</a>
 </p>
 
 <hr>
 
-<h2>Abstract</h2>
+<h2>Overview</h2>
 
 <p>
-Automated evaluation pipelines increasingly rely on large language models as judges over the outputs of other models. This paper documents the nondeterministic behaviour of judge models across repeated runs under nominally fixed sampling parameters, and traces the structural causes to vendor-side routing, batched inference, and training-data overlap between judge and judged. We argue that the resulting evaluation noise is not a tuning problem but an artefact of the production architecture, and that current benchmark practices systematically underestimate it.
-</p>
-
-<hr>
-
-<h2>Related Work</h2>
-
-<p>
-This paper extends the empirical line of the TLIM Research Program by treating evaluation infrastructure itself as a classification regime, in the sense developed in the program-level anchor paper.
+This document describes the installation and setup procedure for the TLIM Reproducibility Toolkit, which accompanies the TLIM Research Program. The toolkit provides the data extraction, classification, and evaluation utilities required to reproduce the empirical analyses reported in the program's preprints. Installation instructions are provided in multiple languages within the PDF.
 </p>
 
 <hr>
