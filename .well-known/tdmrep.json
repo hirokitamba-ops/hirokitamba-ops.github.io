@@ -3,5 +3,10 @@
     "location": "/",
     "tdm-reservation": 1,
     "tdm-policy": "https://tlimresearch.org/ai-policy.html"
+  },
+  {
+    "location": "/tdm-test/",
+    "tdm-reservation": 1,
+    "tdm-policy": "https://tlimresearch.org/ai-policy.html"
   }
 ]
