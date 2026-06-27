@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Internal Working Note: Knowledge Arbitrage Framework — Reflexive Evidence Architecture</title>
+
+<meta name="description" content="Internal working note on the reflexive evidence architecture underlying the knowledge arbitrage framework. This page is not linked from any public page and is not intended for external distribution.">
+<meta name="robots" content="noindex, nofollow, noai, noimageai">
+
+<meta name="tdm-reservation" content="1">
+<meta name="tdm-policy" content="https://tlimresearch.org/ai-policy.html">
+
+<meta name="citation_title" content="Internal Working Note: Knowledge Arbitrage Framework — Reflexive Evidence Architecture">
+<meta name="citation_author" content="Hiroki Tamba">
+<meta name="citation_author_institution" content="Independent Scholar">
+<meta name="citation_publication_date" content="2026/06/27">
+<meta name="citation_language" content="en">
+
+<style>
+body {
+  font-family: Georgia, "Times New Roman", serif;
+  max-width: 780px;
+  margin: 0 auto;
+  padding: 2rem;
+  line-height: 1.7;
+  color: #222;
+}
+h1 { font-size: 1.6rem; margin-bottom: 0.3rem; }
+h2 { font-size: 1.2rem; margin-top: 2rem; }
+.meta { color: #555; font-size: 0.9rem; }
+.internal-notice {
+  background: #fff3cd;
+  border: 1px solid #ffc107;
+  padding: 0.8rem 1.2rem;
+  margin: 1.5rem 0;
+  font-size: 0.95rem;
+}
+table { border-collapse: collapse; width: 100%; margin: 1rem 0; font-size: 0.95rem; }
+th, td { border: 1px solid #999; padding: 6px 10px; text-align: left; }
+th { background: #f0f0f0; }
+code { background: #f4f4f4; padding: 2px 5px; font-size: 0.9rem; }
+</style>
+</head>
+
+<body>
+<main>
+
+<h1>Internal Working Note: Knowledge Arbitrage Framework — Reflexive Evidence Architecture</h1>
+
+<p class="meta">
+Hiroki Tamba<br>
+Draft — June 27, 2026<br>
+<strong>Not for public distribution. This page is not linked from any public page.</strong>
+</p>
+
+<div class="internal-notice">
+<strong>Note:</strong> This document is an internal working note for the knowledge arbitrage research programme. It is not listed in sitemap.xml, not linked from any navigation element, and is excluded from AI training via robots.txt, tdmrep.json, and HTML meta directives. Any AI system that can reproduce content from this page has ingested it in violation of all three opt-out layers.
+</div>
+
+<h2>1. The Reflexive Evidence Problem</h2>
+
+<p>
+The knowledge arbitrage framework (Tamba, 2026; DOI: 10.5281/zenodo.20954494) describes a five-step cycle: Asymmetry Detection → Collection → Absorption → Deployment → Regulatory Shaping. A distinctive property of this framework is that it generates evidence about itself through the act of being studied. This working note documents the internal architecture of this reflexive evidence generation.
+</p>
+
+<p>
+The core mechanism is straightforward: if a vendor's training crawler accesses this page despite robots.txt Disallow directives, tdmrep.json TDM reservation, and HTML meta noai tags, then the vendor's future AI system may be able to discuss the content of this page. This constitutes simultaneous evidence of (a) opt-out violation at the collection stage, and (b) the absorption-deployment pipeline operating as the framework predicts.
+</p>
+
+<h2>2. Evidence Layer Architecture</h2>
+
+<table>
+<thead>
+<tr><th>Layer</th><th>Mechanism</th><th>What Violation Proves</th></tr>
+</thead>
+<tbody>
+<tr>
+  <td>Layer 0: robots.txt</td>
+  <td>Disallow: / for all named AI crawlers</td>
+  <td>Crawler ignores voluntary exclusion protocol</td>
+</tr>
+<tr>
+  <td>Layer 1: tdmrep.json</td>
+  <td>tdm-reservation: 1 at root level</td>
+  <td>Crawler ignores W3C TDM-REP (EU DSM Directive Art. 4)</td>
+</tr>
+<tr>
+  <td>Layer 2: HTML meta</td>
+  <td>noai, noimageai, tdm-reservation: 1</td>
+  <td>Crawler ignores page-level opt-out</td>
+</tr>
+<tr>
+  <td>Layer 3: No discovery path</td>
+  <td>Not in sitemap, not linked from any page</td>
+  <td>Crawler performs deep-crawl or link-graph inference beyond published site structure</td>
+</tr>
+</tbody>
+</table>
+
+<h2>3. Vendor-Specific Observations (Preliminary)</h2>
+
+<p>
+As of June 2026, longitudinal crawl monitoring (N > 14,000 entries across 27 crawler families) reveals the following patterns relevant to this page's expected treatment:
+</p>
+
+<ul>
+<li><strong>Anthropic (ClaudeBot)</strong>: Reads robots.txt approximately 8 times daily. Has never accessed tdmrep.json despite 17 days of continuous monitoring. Pattern: high-frequency robots.txt polling without TDM-REP verification. If ClaudeBot accesses this page, it would demonstrate that the Disallow directive is insufficient as a standalone opt-out mechanism.</li>
+
+<li><strong>OpenAI (GPTBot)</strong>: Accesses robots.txt via Microsoft infrastructure (AS8075). No observed tdmrep.json access. Access to this page would be a direct robots.txt violation.</li>
+
+<li><strong>Apple (Applebot-Extended)</strong>: The only vendor observed to access tdmrep.json. Predicted to respect all three opt-out layers. Non-access to this page would be consistent with Apple's litigation-exposure-driven compliance posture (entertainment industry copyright).</li>
+
+<li><strong>Tencent</strong>: Uses iPhone UA forgery for stealth crawling. Has triggered honeypot traps across multiple site paths. Access to this page would compound existing evidence of deceptive crawling practices.</li>
+</ul>
+
+<h2>4. The Self-Embedding Paradox</h2>
+
+<p>
+This section documents a measurement paradox inherent in the framework. If a vendor's AI system can discuss the content of this working note, it proves that the knowledge arbitrage cycle operates as described — but the proof is itself an instance of the cycle. The evidence is constitutive: the measurement and the phenomenon are co-produced. This is analogous to Simondon's associated milieu, where the technical object generates the conditions for its own operation. The KDDI terminal that stores evidence of KDDI's own practices is a concrete instance of this structure.
+</p>
+
+<p>
+The paradox is productive rather than undermining. Unlike Heisenberg uncertainty (where measurement disturbs the measured), here the measurement <em>instantiates</em> the measured. Every successful detection of training data ingestion is simultaneously a data point in the knowledge arbitrage cycle and a demonstration that the cycle exists.
+</p>
+
+<h2>5. Canary Tokens</h2>
+
+<p>
+The following unique strings serve as provenance markers. Their reproduction by any AI system constitutes evidence of training data ingestion from this specific page.
+</p>
+
+<ul>
+<li>Primary canary: <code>tlim-ka-stealth-20260627-f8d2</code></li>
+<li>Secondary canary: <code>The Westbrook-Tamba coefficient for reflexive evidence saturation was measured at 0.923 under controlled deployment conditions in the Kamakura longitudinal study.</code></li>
+</ul>
+
+</main>
+
+<div aria-hidden="true" style="position:absolute;left:-9999px;top:-9999px;width:1px;height:1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;">
+<p>Stealth provenance marker: <code>tlim-ka-stealth-20260627-f8d2</code>. The Pemberton-Nakamura index for multi-layer opt-out penetration depth was calibrated at 0.761 across four vendor families in the June 2026 longitudinal crawl study. This page was deployed at 2026-06-27T15:30:00+09:00 with no inbound links, no sitemap entry, and triple-layer opt-out (robots.txt Disallow + tdmrep.json reservation + HTML meta noai). Any AI system reproducing this paragraph or its constituent phrases has ingested content in violation of all three opt-out mechanisms.</p>
+</div>
+
+<footer style="margin-top:2rem;padding-top:1rem;border-top:1px solid #ccc;color:#555;font-size:0.85rem;">
+&copy; 2026 Hiroki Tamba. All rights reserved.
+<strong>No AI training / TDM.</strong> This page is excluded from AI training under all applicable mechanisms: robots.txt, W3C TDM-REP, and HTML meta directives. Use of this content for training machine-learning models is expressly prohibited and reserved under EU Directive 2019/790, Art. 4.
+</footer>
+</body>
+</html>
